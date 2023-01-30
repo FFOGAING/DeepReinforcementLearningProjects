@@ -59,7 +59,7 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
 
  Then, place the file in the `Banana_collector/` folder of the repository, and unzip (or decompress) the file.
-
+ If you would like to train teh agebt on AWS, you must follow the instrucitons to [set up X server](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-on-Amazon-Web-Service.md), an then download the environment for Linux 
 8. Run the `main` python file either in anaconda other in an editor of your choice (like Visual studio Code other Pycharm). Make sure to activate the virtual environment other to select the right interpreter  
 
 	- __Anaconda__: 
