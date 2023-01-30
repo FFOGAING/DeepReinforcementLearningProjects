@@ -88,10 +88,4 @@ For this challenge a new Unity environement is needed
 A Description of the environment can be found [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#soccer-twos)
 
 ## Related Papers and references
-- [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) 
-- [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
-- [DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS](https://openreview.net/pdf?id=SyZipzbCb)
-- [Sharing experience](https://ai.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.html)
-- [Distributed Distributional Deterministic Policy Gradients](https://openreview.net/forum?id=SyZipzbCb)
-- [ Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/)
-- [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778)
+- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf) 
