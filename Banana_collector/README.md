@@ -1,4 +1,4 @@
-# Banana Collector (navigation) (WORK IN PROGRESS!!!)
+# Banana Collector (navigation)
 
 ![image1](image/banana.gif)
 
