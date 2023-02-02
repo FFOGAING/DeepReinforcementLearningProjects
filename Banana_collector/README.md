@@ -47,8 +47,12 @@ pip install .
 ```bash
 pip install torch==0.4.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
-
-5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `name_of_your_env` environment.  
+5. If you are a Windows-User and  get this error below by importing pytorch, maybe you have to install openmp (`pip install intel-openmp`) in the environment
+```bash
+from torch._C import *
+ImportError: DLL load failed: The specified module could not be found.
+```
+6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `name_of_your_env` environment.  
 ```bash
 python -m ipykernel install --user --name name_of_your_env --display-name "name_of_your_env"
 ```
@@ -59,19 +63,22 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
 
  Then, place the file in the `Banana_collector/` folder of the repository, and unzip (or decompress) the file.
- If you would like to train teh agebt on AWS, you must follow the instrucitons to [set up X server](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-on-Amazon-Web-Service.md), an then download the environment for Linux 
+ If you would like to train the agent on AWS, you must follow the instructions to [set up X server](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-on-Amazon-Web-Service.md), an then download the environment for Linux 
 8. Run the `main` python file either in anaconda other in an editor of your choice (like Visual studio Code other Pycharm). Make sure to activate the virtual environment other to select the right interpreter  
 
 	- __Anaconda__: 
 	```bash
-	python3 main
+	python main.py
 	
 	```
 	- __Visual Studio Code__: 
 	  - `ctrl + shift + p` to start the  **Command Palette**
  	  - write and select the `python: select interpreter`
 	  - choose the correct interpreter
-
+## Result
+The environment is solved befor the 500th episode. It is interesting to see, that after the 1300th episode, the performance decrease a little bit.
+![image2](image/Result.png)
+![image3](image/Result_2.png)
 ## Future Works
 ### Extensions
 Some extensions of the Double Deep-Q-Networks could be implement to reach better performance 
