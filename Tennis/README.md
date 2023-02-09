@@ -3,7 +3,7 @@
 ![image1](image/Tennis.gif)
 
 The goal of this project is to train two agents to play tennis. The simulation environment is provided by [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
-This project was solved with a **Deep Deterministic Policy Gradients (DDPG)** algorithm.
+This project was solved with a **Deep Deterministic Policy Gradients (DDPG)** algorithm in a **collaborative fashion**.
 
 ## Overview
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1.  If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01.  Thus, the goal of each agent is to keep the ball in play.
@@ -74,8 +74,15 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
  	  - write and select the `python: select interpreter`
 	  - choose the correct interpreter
 
+## Result
+The environment is solved around the 1500th episode. It is interesting to see, that despite a longer training, it is difficult for the agents to get a better and stable improvement
+![image2](image/Result_2.png)
+![image3](image/Result_1.png)
 ## Future Works
-### Extensions
+-A bigger network could be tested to see if a better result is achieved with longer training
+-For this particular environment, train the agents on some sequential correlations could be maybe usefull. A possible implementation is to build two buffer for the experienced replay, one without and one with sequential correlation.
+The agents should learn alternately from both.
+- Other deep reinforcement learning algorithms should be also implemented.
 
 ### Next Challenge: Soccer Environment
 ![image2](image/football.gif)
@@ -88,4 +95,6 @@ For this challenge a new Unity environement is needed
 A Description of the environment can be found [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#soccer-twos)
 
 ## Related Papers and references
-- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf) 
+- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://proceedings.neurips.cc/paper/2017/file/68a9750337a418a86fe06c1991a1d64c-Paper.pdf)
+- [Training intelligent adversaries using self-play with ML-Agents](https://blog.unity.com/technology/training-intelligent-adversaries-using-self-play-with-ml-agents)
+

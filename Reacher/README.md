@@ -78,7 +78,7 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
         - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
         - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
-    - **_Version 2: Twenty (20) Agents_**
+- **_Version 2: Twenty (20) Agents_**
         - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
         - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
         - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
@@ -98,11 +98,16 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
  	  - write and select the `python: select interpreter`
 	  - choose the correct interpreter
 
+## Result
+The environment is solved befor the 500th episode. 
+![image2](image/Result.png)
+![image3](image/Result_2.png)
 ## Future Works
 ### Extensions
 
 ### Next Challenge: Crawler Environment
 ![image2](image/crawler.png)
+
 For this challenge a new Unity environement is needed
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux.zip)
 - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler.app.zip)
@@ -112,6 +117,7 @@ For this challenge a new Unity environement is needed
 A Description of the environment can be found [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler)
 
 ## Related Papers and references
+- [Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/abs/1603.00748)
 - [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) 
 - [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
 - [DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS](https://openreview.net/pdf?id=SyZipzbCb)
