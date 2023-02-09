@@ -75,12 +75,14 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
 	  - choose the correct interpreter
 
 ## Result
-The environment is solved around the 1500th episode. It is interesting to see, that despite a longer training, it is difficult for the agents to get a better and stable improvement
+The environment is solved around the 1500th episode. It is interesting to see, that despite a longer training, it is difficult for the agents to get a better
+ and stable improvement
+
 ![image2](image/Result_2.png)
 ![image3](image/Result_1.png)
 ## Future Works
--A bigger network could be tested to see if a better result is achieved with longer training
--For this particular environment, train the agents on some sequential correlations could be maybe usefull. A possible implementation is to build two buffer for the experienced replay, one without and one with sequential correlation.
+- A bigger network could be tested to see if a better result is achieved with longer training
+- For this particular environment, train the agents on some sequential correlations could be maybe usefull. A possible implementation is to build two buffer for the experienced replay, one without and one with sequential correlation.
 The agents should learn alternately from both.
 - Other deep reinforcement learning algorithms should be also implemented.
 
