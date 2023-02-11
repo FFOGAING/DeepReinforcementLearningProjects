@@ -98,15 +98,15 @@ python -m ipykernel install --user --name name_of_your_env --display-name "name_
  	  - write and select the `python: select interpreter`
 	  - choose the correct interpreter
 
-## Result
-The environment is solved befor the 500th episode. 
+## Result 
+ The challenge in this environment is to speed up the training and get a stable learning process.For that, The version 2 of the environment was chosen and a batchnormalization was implemented. The model was trained this time online . Due to connection difficulty and the long training time, I trained and saved the models tree times. The result of the last round is bellow. 
 ![image2](image/Result.png)
-![image3](image/Result_2.png)
+
 ## Future Works
-### Extensions
+Try to solved the environment with only one agent with correct training time.
 
 ### Next Challenge: Crawler Environment
-![image2](image/crawler.png)
+![image3](image/crawler.png)
 
 For this challenge a new Unity environement is needed
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux.zip)
